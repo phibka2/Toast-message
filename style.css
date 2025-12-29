@@ -132,10 +132,10 @@ html {
 
 @media (max-width: 739px) {
     .btn {
-        width: 150px;       /* Thu nhỏ chiều rộng */
-        height: 44px;      /* Thu nhỏ chiều cao */
-        font-size: 18px;    /* Chữ nhỏ lại cho vừa màn hình */
-        margin-bottom: 20px; /* Giảm khoảng cách để đỡ tốn diện tích */
+        width: 150px;       
+        height: 44px;      
+        font-size: 18px;   
+        margin-bottom: 40px; 
     }
 
     .toast {
