@@ -55,6 +55,7 @@ html {
     position: fixed;
     top: 16px;
     right: 16px;
+    z-index: 999999;
 }
 
 .toast {
@@ -63,8 +64,8 @@ html {
     align-items: center;
     background-color: #fff;
     border-radius: 4px;
-    min-width: 400px;
-    max-width: 400px;
+    min-width: 450px;
+    max-width: 450px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     margin-bottom: 16px;
     transition: all linear 0.3s;
@@ -145,8 +146,8 @@ html {
 
     .toast__icon {
     font-size: 24px;
-    padding: 18px 8px;
-    border-left: 8px solid;
+    padding: 18px 2px;
+    border-left: 4px solid;
     }   
 
     .toast__title {
@@ -154,11 +155,11 @@ html {
     }
 
     .toast__message {
-    font-size: 8px ;
+    font-size: 12px ;
     }
 
     .toast__close {
     font-size: 24px;
-    padding: 8px;
+    padding: 4px;
     }
 }
