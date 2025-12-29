@@ -138,12 +138,6 @@ html {
     }
 
     .toast {
-    min-width: 400px;
-    max-width: 400px;
-    margin-bottom: 8px;
-    }
-
-    .toast {
     min-width: 200px;
     max-width: 200px;
     margin-bottom: 8px;
